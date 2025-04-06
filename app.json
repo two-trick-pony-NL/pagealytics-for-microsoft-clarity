@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ClarityGo",
+    "slug": "ClarityGo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/newicon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.two-trick-pony.claritygo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.two_trick_pony.claritygo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+          [
+            "expo-secure-store",
+            {
+              "configureAndroidBackup": true,
+              "faceIDPermission": "Allow $(PRODUCT_NAME) to access your Face ID biometric data."
+            }
+          ]
+        ]
+
+  }
+}
