@@ -26,6 +26,8 @@ const APIKeyScreen = ({ navigation }) => {
         style={styles.icon}
       />
       <Text style={styles.header}>Add your Microsoft Clarity API key to get started</Text>
+      <Text style={styles.disclaimer}>Find your API key in the Clarity Web interface under Project settings, Data Export .
+      </Text>
       <TextInput
         style={styles.input}
         placeholder="Enter API Key"
@@ -34,6 +36,10 @@ const APIKeyScreen = ({ navigation }) => {
       />
       {errorMessage ? <Text style={styles.error}>{errorMessage}</Text> : null}
       <Button title="Start" onPress={handleSaveAPIKey} />
+      <View style={styles.disclaimercontainer}>
+        <Text style={styles.disclaimer}>This app is an independent tool and is in no way affiliated with, endorsed by, or connected to Microsoft or Microsoft Clarity. All Microsoft Clarity API keys are stored securely on your device and never transmitted to our servers. All data is fetched directly from the Clarity API through client-side requests.
+      </Text>
+      </View>
     </KeyboardAvoidingView>
   );
 };
@@ -50,6 +56,17 @@ const styles = StyleSheet.create({
     marginBottom: 20, // Space between image and text
     borderRadius: 20,
   },
+  disclaimercontainer: {
+      flex: 1,
+      justifyContent: 'center', // vertical center
+      alignItems: 'center',
+    },
+    disclaimer: {
+      fontSize: 12,
+      textAlign: 'center',
+      marginBottom: 20,
+      color: 'gray',
+    },
 });
 
 export default APIKeyScreen;

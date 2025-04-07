@@ -1,27 +1,27 @@
 {
   "expo": {
-    "name": "ClarityGo",
-    "slug": "ClarityGo",
+    "name": "Pagelytics",
+    "slug": "Pagelytics",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/newicon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.two-trick-pony.claritygo"
+      "bundleIdentifier": "com.two-trick-pony.Pagelytics"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.two_trick_pony.claritygo"
+      "package": "com.two_trick_pony.Pagelytics"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -37,7 +37,7 @@
     ],
     "extra": {
       "eas": {
-        "projectId": "944a8c6f-8e3a-45c0-933f-44e6e028402e"
+        "projectId": "e5e3d62e-91dd-4d22-ae1b-03a1be1737ef"
       }
     }
   }
