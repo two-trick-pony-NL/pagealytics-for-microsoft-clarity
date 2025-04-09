@@ -27,9 +27,9 @@ I wanted something mobile-first. Just like Scout is for Mixpanel — I wanted th
 - 🎯 Spot rage clicks — Know exactly how many users are struggling
 - 📊 Top pages — See what pages are actually getting traffic (this was really usefull after I recently launched some blog posts for Voice Mate about Hubspot and Google Calendar
 - 💪🏻 Engagement — Find out how far users scroll and how much time they spend
-‼️ Find errors — Again super usefull when on the fly. ![Uploading Screenshot 2025-04-09 at 12.50.27.png…]()
-If you deploy a new version and see your Javascript errors going to 80% of visits and the only place you use Javascript is on your signup form then you know you have an all-nighter ahead of you.
+‼️ Find errors — Again super usefull when on the fly. 
 
-It connects via the official Clarity Data Export API and shows you the important stuff — no bloat, no fuss no account registration. We keep your Clarity API key on your device so we don’t even have a server.
+
+It connects via the official Clarity Data Export API and shows you the important stuff — no bloat, no fuss no account registration no tracking. We keep your Clarity API key on your device so we don’t even have a server. Everything stays local.
 
 > **Disclaimer:** This app is not affiliated with, endorsed by, or sponsored by Microsoft or Microsoft Clarity in any way.
