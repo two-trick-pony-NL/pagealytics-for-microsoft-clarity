@@ -7,7 +7,7 @@ Pagelytics is a native iOS app that brings your Microsoft Clarity data straight 
 I built it for me — but if you’re using Clarity, it might be exactly what you’re missing too.
 
 # ⤵️ Download
-Simply get the app from the Apple App store [here]([url](https://apps.apple.com/us/app/pagelytics/id6744327148)) 
+[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/pagelytics/id6744327148)
 
 <img width="459" alt="Screenshot 2025-04-09 at 12 50 27" src="https://github.com/user-attachments/assets/5fd5026c-b39d-487b-89b8-56c648cdb2ae" />
 
