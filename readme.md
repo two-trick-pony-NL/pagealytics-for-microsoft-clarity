@@ -4,7 +4,9 @@
 # Pagelytics - iOS client for Microsoft Clarity
 
 <br>
+
 [![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/pagelytics/id6744327148)
+
 <br>
 Pagelytics is a native iOS app that brings your Microsoft Clarity data straight to your pocket. It’s designed for makers, marketers, and product people who want clarity (pun intended) without logging into yet another web dashboard.
 
