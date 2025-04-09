@@ -31,3 +31,5 @@ I wanted something mobile-first. Just like Scout is for Mixpanel — I wanted th
 If you deploy a new version and see your Javascript errors going to 80% of visits and the only place you use Javascript is on your signup form then you know you have an all-nighter ahead of you.
 
 It connects via the official Clarity Data Export API and shows you the important stuff — no bloat, no fuss no account registration. We keep your Clarity API key on your device so we don’t even have a server.
+
+> **Disclaimer:** This app is not affiliated with, endorsed by, or sponsored by Microsoft or Microsoft Clarity in any way.
